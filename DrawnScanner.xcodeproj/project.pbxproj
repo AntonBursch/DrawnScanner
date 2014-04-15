@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC7078F318EDDCF5000EF8B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7078F118EDDCF5000EF8B8 /* ViewController.m */; };
+		CC7078F418EDDCF5000EF8B8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC7078F218EDDCF5000EF8B8 /* ViewController.xib */; };
+		CC7078F718EDDFD1000EF8B8 /* ScannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7078F618EDDFD1000EF8B8 /* ScannerView.m */; };
 		CCCC89C718EDD45000760476 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCCC89C618EDD45000760476 /* Foundation.framework */; };
 		CCCC89C918EDD45000760476 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCCC89C818EDD45000760476 /* CoreGraphics.framework */; };
 		CCCC89CB18EDD45000760476 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCCC89CA18EDD45000760476 /* UIKit.framework */; };
@@ -19,6 +22,7 @@
 		CCCC89E218EDD45000760476 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCCC89CA18EDD45000760476 /* UIKit.framework */; };
 		CCCC89EA18EDD45000760476 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCCC89E818EDD45000760476 /* InfoPlist.strings */; };
 		CCCC89EC18EDD45000760476 /* DrawnScannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCC89EB18EDD45000760476 /* DrawnScannerTests.m */; };
+		CCCC89F618EDD46800760476 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCCC89F518EDD46800760476 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC7078F018EDDCF5000EF8B8 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC7078F118EDDCF5000EF8B8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC7078F218EDDCF5000EF8B8 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		CC7078F518EDDFD1000EF8B8 /* ScannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScannerView.h; sourceTree = "<group>"; };
+		CC7078F618EDDFD1000EF8B8 /* ScannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScannerView.m; sourceTree = "<group>"; };
 		CCCC89C318EDD45000760476 /* DrawnScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawnScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCCC89C618EDD45000760476 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CCCC89C818EDD45000760476 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +57,7 @@
 		CCCC89E718EDD45000760476 /* DrawnScannerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrawnScannerTests-Info.plist"; sourceTree = "<group>"; };
 		CCCC89E918EDD45000760476 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CCCC89EB18EDD45000760476 /* DrawnScannerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawnScannerTests.m; sourceTree = "<group>"; };
+		CCCC89F518EDD46800760476 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCCC89F618EDD46800760476 /* CoreMotion.framework in Frameworks */,
 				CCCC89C918EDD45000760476 /* CoreGraphics.framework in Frameworks */,
 				CCCC89CB18EDD45000760476 /* UIKit.framework in Frameworks */,
 				CCCC89C718EDD45000760476 /* Foundation.framework in Frameworks */,
@@ -96,6 +107,7 @@
 		CCCC89C518EDD45000760476 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CCCC89F518EDD46800760476 /* CoreMotion.framework */,
 				CCCC89C618EDD45000760476 /* Foundation.framework */,
 				CCCC89C818EDD45000760476 /* CoreGraphics.framework */,
 				CCCC89CA18EDD45000760476 /* UIKit.framework */,
@@ -110,6 +122,11 @@
 				CCCC89D518EDD45000760476 /* AppDelegate.h */,
 				CCCC89D618EDD45000760476 /* AppDelegate.m */,
 				CCCC89D818EDD45000760476 /* Images.xcassets */,
+				CC7078F018EDDCF5000EF8B8 /* ViewController.h */,
+				CC7078F118EDDCF5000EF8B8 /* ViewController.m */,
+				CC7078F518EDDFD1000EF8B8 /* ScannerView.h */,
+				CC7078F618EDDFD1000EF8B8 /* ScannerView.m */,
+				CC7078F218EDDCF5000EF8B8 /* ViewController.xib */,
 				CCCC89CD18EDD45000760476 /* Supporting Files */,
 			);
 			path = DrawnScanner;
@@ -220,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCCC89D118EDD45000760476 /* InfoPlist.strings in Resources */,
+				CC7078F418EDDCF5000EF8B8 /* ViewController.xib in Resources */,
 				CCCC89D918EDD45000760476 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +257,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC7078F318EDDCF5000EF8B8 /* ViewController.m in Sources */,
+				CC7078F718EDDFD1000EF8B8 /* ScannerView.m in Sources */,
 				CCCC89D718EDD45000760476 /* AppDelegate.m in Sources */,
 				CCCC89D318EDD45000760476 /* main.m in Sources */,
 			);
@@ -437,6 +457,7 @@
 				CCCC89F118EDD45000760476 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCCC89F218EDD45000760476 /* Build configuration list for PBXNativeTarget "DrawnScannerTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +466,7 @@
 				CCCC89F418EDD45000760476 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
